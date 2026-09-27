@@ -995,9 +995,9 @@ app.post('/api/broadcast', async (req, res) => {
 const root = path.resolve(__dirname);
 if (process.env.NODE_ENV === 'production') {
   // Serve static assets from client dist folder
-  app.use(express.static(path.join(root, 'dist/client')));
+  app.use(express.static(path.join(root, 'dist')));
   app.get('*', (req, res) => {
-    res.sendFile(path.join(root, 'dist/client/index.html'));
+    res.sendFile(path.join(root, 'dist/index.html'));
   });
 } else {
   // Mount Vite development middlewares
