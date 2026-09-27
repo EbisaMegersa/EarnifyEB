@@ -1,0 +1,6 @@
+{
+  "name": "EarnifyEB - Telegram Referral & Earnings Dashboard",
+  "description": "A comprehensive administration and monitoring dashboard for EarnifyEB, a Telegram referral bot. Track users, manage balances, process withdrawals, and broadcast notifications.",
+  "permissions": [],
+  "capabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
